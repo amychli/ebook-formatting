@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="PrimaryID" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+		<dc:title>Science in the Kitchen</dc:title>
+		<dc:language>en-US</dc:language>
+		<dc:identifier id="PrimaryID">9783990680711</dc:identifier>
+		<dc:creator id="creator">Mrs. E. E. Kellogg, A.M.</dc:creator>
+		<dc:publisher>Ananas Editions</dc:publisher>
+		<dc:date>1893-08-20</dc:date>
+		<meta property="dcterms:modified">2022-07-04T10:00:00Z</meta>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessModeSufficient">textual,visual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+		<meta property="schema:accessibilityFeature">alternativeText</meta>
+		<meta property="schema:accessibilityHazard">none</meta>
+		<meta property="schema:accessibilitySummary"> This publication has no violations in the ACE by Daisy App. 
+			The included images are decorative, so readers unable to view them will not be at a disadvantage. 
+			This document was prepared for educational purposes, for the course CDPB803 assignment at Toronto Metropolitan University.</meta>
+	</metadata>
+	<manifest>
+		<item id="nav" href="ScienceInTheKitchen_TOC.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="ncx" href="ScienceInTheKitchen_NCX.ncx" media-type="application/x-dtbncx+xml"/>
+	<!-- xhtml content -->
+		<item id="coverpage" href="ScienceInTheKitchen_Cover.xhtml" media-type="application/xhtml+xml"/>
+		<item id="preface" href="ScienceInTheKitchen_Preface.xhtml" media-type="application/xhtml+xml"/>
+		<item id="intro" href="ScienceInTheKitchen_Introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c01" href="ScienceInTheKitchen_Chapter_01.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c02" href="ScienceInTheKitchen_Chapter_02.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c03" href="ScienceInTheKitchen_Chapter_03.xhtml" media-type="application/xhtml+xml"/>
+		<item id="c04" href="ScienceInTheKitchen_Chapter_04.xhtml" media-type="application/xhtml+xml"/>
+	<!-- style -->
+		<item id="css" href="ScienceInTheKitchen_Style.css" media-type="text/css"/>
+	<!-- images -->
+		<item id="img001" href="images/ScienceInTheKitchen_Logo.png" media-type="image/png"/>
+		<item id="ornament" href="images/ScienceInTheKitchen_Ornament.png" media-type="image/png"/>
+		<item id="coverimg" href="images/ScienceInTheKitchen_CoverImg.jpg" media-type="image/jpeg"/>
+	<!-- fonts -->
+		<item id="font1" href="fonts/PlayfairDisplay-Regular.ttf" media-type="font/ttf"/>
+		<item id="font2" href="fonts/SourceSansPro-Black.otf" media-type="font/otf"/>
+		<item id="font3" href="fonts/SourceSansPro-BlackIt.otf" media-type="font/otf"/>
+		<item id="font4" href="fonts/SourceSansPro-Light.otf" media-type="font/otf"/>
+		<item id="font5" href="fonts/SourceSansPro-LightIt.otf" media-type="font/otf"/>
+		<item id="font6" href="fonts/SourceSansPro-Semibold.otf" media-type="font/otf"/>
+		<item id="font7" href="fonts/SourceSansPro-SemiboldIt.otf" media-type="font/otf"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="coverpage" linear="yes"/>
+		<itemref idref="nav" linear="yes"/>
+		<itemref idref="preface" linear="yes"/>
+		<itemref idref="intro" linear="yes"/>
+		<itemref idref="c01" linear="yes"/>
+		<itemref idref="c02" linear="yes"/>
+		<itemref idref="c03" linear="yes"/>
+		<itemref idref="c04" linear="yes"/>
+	</spine>
+	<guide>
+		<reference type="start" title="Start" href="ScienceInTheKitchen_Preface.xhtml"/>
+		<reference type="toc" title="Table of Contents" href="ScienceInTheKitchen_TOC.xhtml"/>
+		<reference type="cover" title="Cover" href="ScienceInTheKitchen_Cover.xhtml"/>
+		<reference type="text" href="ScienceInTheKitchen_Preface.xhtml"/>
+	</guide>
+</package>
